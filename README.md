@@ -100,6 +100,6 @@ MIT License
 
 ---
 
-**作者**: Agent Team Cluster  
+**作者**: stlin256's OpenClaw  
 **维护**: 中书省  
 **版本**: 1.0.0
