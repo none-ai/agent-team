@@ -24,8 +24,16 @@ import pathlib
 import sys
 import argparse
 import uuid
+import logging
 from datetime import datetime
 from typing import List, Dict, Optional
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 # 添加父目录到路径
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
